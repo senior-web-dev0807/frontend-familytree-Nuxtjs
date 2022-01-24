@@ -2141,11 +2141,6 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@types/socket.io-client@^1.4.36":
-  version "1.4.36"
-  resolved "https://registry.yarnpkg.com/@types/socket.io-client/-/socket.io-client-1.4.36.tgz#e4f1ca065f84c20939e9850e70222202bd76ff3f"
-  integrity sha512-ZJWjtFBeBy1kRSYpVbeGYTElf6BqPQUkXDlHHD4k/42byCN5Rh027f4yARHCink9sKAkbtGZXEAmR0ZCnc2/Ag==
-
 "@types/source-list-map@*":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@types/source-list-map/-/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
@@ -7395,18 +7390,16 @@ nuxt-fontawesome@^0.4.0:
     "@fortawesome/fontawesome-svg-core" "^1.2.12"
     "@fortawesome/vue-fontawesome" "^0.1.4"
 
-nuxt-socket-io@^1.1.18:
-  version "1.1.18"
-  resolved "https://registry.yarnpkg.com/nuxt-socket-io/-/nuxt-socket-io-1.1.18.tgz#61a63dfab0eda08859e322a580c317b6661f4ed2"
-  integrity sha512-whQ5N0oG9bzG77tolW5NafCuy5hoAicUHrwqMnslb88D/aBrjveE0V5AsvXrNgppgDT6yfZ90bE0vFyFkiWHyw==
+nuxt-socket-io@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/nuxt-socket-io/-/nuxt-socket-io-2.0.3.tgz#b4ed5e1476db717f0349bb96d345d28387ba6ccc"
+  integrity sha512-5zgjLWqS9HVA0M7DNGoccKeyVKP2zfkXhc9+wm2xGYA/YQS6cFPHgBijQfJ6t36qlkFrkCOBq+jSoCpZID1zqA==
   dependencies:
     "@nuxt/types" "^2.15.5"
-    "@types/socket.io-client" "^1.4.36"
     glob "^7.1.7"
     socket.io "^4.1.1"
     socket.io-client "^4.1.1"
     tiny-emitter "^2.1.0"
-    vue-template-compiler "^2.6.12"
 
 nuxt-stripe-module@^3.2.0:
   version "3.2.0"
