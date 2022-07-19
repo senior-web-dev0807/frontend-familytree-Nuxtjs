@@ -4656,6 +4656,11 @@ emoji-js@^3.4.0:
   dependencies:
     emoji-datasource "4.1.0"
 
+emoji-picker-element@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/emoji-picker-element/-/emoji-picker-element-1.12.1.tgz#854a9bbae4d9a04fa2b5cd0763845921f4904c83"
+  integrity sha512-F9AY/re8uqZmBcCXLHLGvyy7fxuMQdZl9R8OToLRH8Vnns+WMX8RYUbI2nSJklzl5+82qzpYWeus1/puDepWcQ==
+
 "emoji-regex@>=6.0.0 <=6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-6.1.1.tgz#c6cd0ec1b0642e2a3c67a1137efc5e796da4f88e"
@@ -6465,10 +6470,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
-lamejs@^1.2.0:
+lamejs@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/lamejs/-/lamejs-1.2.0.tgz#0259f83db4666141a7b671b8caa6369d95177d08"
-  integrity sha1-Aln4PbRmYUGntnG4yqY2nZUXfQg=
+  integrity sha512-xEYvsB2sZ9jIccqfUQpQEBdB6UYQDG/ta2xQkH7oEpENb0JHFJii965WVF8ErUMdZzoe7EdIruz1WpICdhZ9Pw==
   dependencies:
     use-strict "1.0.1"
 
@@ -10436,17 +10441,16 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-advanced-chat@^0.8.6:
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/vue-advanced-chat/-/vue-advanced-chat-0.8.6.tgz#a3ad3116a78c6f337c3c27d4555c11aebe6ed6de"
-  integrity sha512-gsLOyEqJvn3qErHk2baTOi+5uByCZXMgijJx2g8K0wFwFMnmg3nIHrKq5YO6tUJPXBRU+qLUy/IktfEcVENo9A==
+vue-advanced-chat@^1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/vue-advanced-chat/-/vue-advanced-chat-1.5.7.tgz#3fee397d469afb088c9e42320a40d04aa4770b7e"
+  integrity sha512-l2mRjHpflXi2J+FhuJ2pr6o+T8k6LnxNeAuJigG7RCMY+s9nbqtsYBQTnDTrzvH8JkPme6MgNi/NnPAHxj1Kdg==
   dependencies:
+    emoji-picker-element "1.12.1"
     linkifyjs "^2.1.9"
     v-click-outside "^3.1.2"
-    vue-emoji-picker "^1.0.1"
-    vue-infinite-loading "https://github.com/antoine92190/vue-infinite-loading/tarball/master"
   optionalDependencies:
-    lamejs "^1.2.0"
+    lamejs "1.2.0"
 
 vue-beautiful-chat@^2.5.0:
   version "2.5.0"
@@ -10479,11 +10483,6 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
-vue-emoji-picker@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vue-emoji-picker/-/vue-emoji-picker-1.0.1.tgz#0c893b21fb2ac46c6b5803476d744ae3d420f98b"
-  integrity sha512-phisHAaSg+7xnpi7xlOxFGD46npaQXCLit2T6nAHMlEcFNT1ZUqu/NO3P5FDp6RgjP7o4ueduktnxk9ul0IS9Q==
-
 vue-fb-customer-chat@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/vue-fb-customer-chat/-/vue-fb-customer-chat-0.2.0.tgz#26384b0db646f38d9e26b1d2d40adf73bbd46999"
@@ -10501,10 +10500,6 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
-
-"vue-infinite-loading@https://github.com/antoine92190/vue-infinite-loading/tarball/master":
-  version "2.4.5"
-  resolved "https://github.com/antoine92190/vue-infinite-loading/tarball/master#064f4f302a586407685b6ca80f955543781d9aa7"
 
 vue-instantsearch@^3.8.1:
   version "3.8.1"
